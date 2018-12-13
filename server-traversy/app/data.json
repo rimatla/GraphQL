@@ -1,0 +1,64 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "Thor Hammer",
+      "email": "thor@gmail.com",
+      "about": {
+        "power": "kicks ass",
+        "planet": "Asgard"
+      },
+      "age": 32
+    },
+    {
+      "id": "2",
+      "name": "Spider Webman",
+      "about": {
+        "power": "web",
+        "planet": "Jupiter"
+      },
+      "email": "spider@gmail.com",
+      "age": 46
+    },
+    {
+      "id": "3",
+      "name": "Iron Manly",
+      "about": {
+        "power": "tech geek",
+        "planet": "Earth"
+      },
+      "email": "manly@gmail.com",
+      "age": 43
+    },
+    {
+      "id": "4",
+      "name": "Hulk Green",
+      "about": {
+        "power": "tear downer",
+        "planet": "Mars"
+      },
+      "email": "hulk@gmail.com",
+      "age": 22
+    },
+    {
+      "id": "5",
+      "name": "Nicky Fury",
+      "about": {
+        "power": "negotiator",
+        "planet": "Venus"
+      },
+      "email": "nick@gmail.com",
+      "age": 16
+    },
+    {
+      "name": "Bat Winger",
+      "email": "batman@gmail.com",
+      "about": {
+        "power": "sassy powers",
+        "planet": "Gothan"
+      },
+      "age": 33,
+      "id": "6"
+    }
+  ]
+}

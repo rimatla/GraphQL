@@ -1,0 +1,45 @@
+# Get Customer
+{
+  customer(id: "5") {
+    name
+    about {
+      power
+      planet
+    }
+  }
+}
+
+# Get All Customers
+{
+  customers {
+    name
+    age
+  }
+}
+
+# Mutations
+mutation {
+  #post
+  addCustomer(name: "Zombi Zoo", email: "zombi@gmail.com", age: 23) {
+    # get back
+    id
+    name
+    age
+  }
+}
+
+mutation {
+  #delete
+  deleteCustomer(id: "Z6CTM0j") {
+    id
+  }
+}
+
+mutation {
+  #edit
+  editCustomer(id: "2", age: 46) {
+    id
+    name
+    age
+  }
+}
