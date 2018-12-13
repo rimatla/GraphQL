@@ -4,6 +4,6 @@
 
 `npm run dev:server`
 
-### Fire JSON server (our mockup DB)
+### Fire JSON server (mock DB)
 
 `npm run json:server`
